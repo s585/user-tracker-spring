@@ -1,0 +1,21 @@
+http://localhost:8080/users
+
+###
+
+http://localhost:8080/users/16
+
+###
+
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "id": 16,
+  "nickName": "Полевой",
+  "fullName": "Полевой",
+  "email": "3@3"
+}
+
+###
+
+POST http://localhost:8080/users/16/remove
